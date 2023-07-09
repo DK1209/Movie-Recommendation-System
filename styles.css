@@ -1,0 +1,47 @@
+body{
+    background-color: #22254b;
+}
+
+.movie{
+    background-color: #373b69;
+    color: white;
+    width:300px;
+    border-radius:3px;
+
+}
+
+.movie img{
+    width:100%;
+}
+.movie-info{
+    color:white;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding:1rem;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie-info span.green{
+    color:rgb(86, 160, 86);
+}
+.movie-info span.orange{
+    color:rgb(244, 144, 14);
+}
+.movie-info span.red{
+    color:rgb(226, 34, 34);
+}
+
+.overview{
+    padding:1 rem;
+    background-color: rgb(14, 7, 7);
+    color:rgb(219, 241, 80);
+}
+
+#search{
+    background-color: antiquewhite;
+}
