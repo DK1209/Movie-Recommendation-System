@@ -125,7 +125,7 @@ else{
         showMovies(combineData);
     }
 
-    form.addEventListener("submit", async (e) => { // Add 'async' here to use 'await' inside the listener
+    form.addEventListener("submit", async (e) => { 
         e.preventDefault();
     
         const movieTitle = search.value;
@@ -133,6 +133,6 @@ else{
             alert("Please enter a movie title.");
             return;
         }
-        await searchMovie(); // Add 'await' here to wait for the searchMovie function to finish
+        await searchMovie(); 
         getMovies(searchAPI + movieTitle);
     });
